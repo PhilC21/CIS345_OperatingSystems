@@ -2,9 +2,6 @@ import socket
 import threading
 import sys
 
-# Add function to broadcast messages to all clients
-# Write a comment to explain the importance of using a Thread Lock in the client server example.
-
 client_count = 0
 client_count_lock = threading.Lock()
 
@@ -125,3 +122,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
